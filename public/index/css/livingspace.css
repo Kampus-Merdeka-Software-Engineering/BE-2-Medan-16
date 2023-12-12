@@ -74,14 +74,31 @@ box-shadow: var(--box-shadow);
         
         }
 
-      
-
+    
   .logo{
       margin-right: auto;
       font-size: 2.5rem;
       color: var(--cle-white);
       font-weight:bolder;
+      border-radius: 50%;
   }
+
+  .logo-footer {
+    margin-right: auto;
+    font-size: 2.5rem;
+    color: var(--cle-white);
+    font-weight:bolder;
+    border-radius: 50%;
+  }
+
+  .logo-footer .fa-home {
+    margin-right: auto;
+    font-size: 2.5rem;
+    color: var(--cle-white);
+    font-weight:bolder;
+    border-radius: 50%;
+  }
+
 
   .buttoncobavoba{
     padding: 6px 24px;

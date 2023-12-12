@@ -117,7 +117,21 @@ html::-webkit-scrollbar {
       font-weight:bolder;
   }
 
+  .logo-footer {
+    margin-right: auto;
+    font-size: 2.5rem;
+    color: var(--cle-white);
+    font-weight:bolder;
+    border-radius: 50%;
+  }
 
+  .logo-footer .fa-home {
+    margin-right: auto;
+    font-size: 2.5rem;
+    color: var(--cle-white);
+    font-weight:bolder;
+    border-radius: 50%;
+  }
 
   i{
       color: var(--cle-green);

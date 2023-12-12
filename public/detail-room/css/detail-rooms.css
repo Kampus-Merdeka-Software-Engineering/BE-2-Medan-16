@@ -85,7 +85,21 @@ html::-webkit-scrollbar {
       color: var(--cle-white);
       font-weight:bolder;
   }
+  .logo-footer {
+    margin-right: auto;
+    font-size: 2.5rem;
+    color: var(--cle-white);
+    font-weight:bolder;
+    border-radius: 50%;
+  }
 
+  .logo-footer .fa-home {
+    margin-right: auto;
+    font-size: 2.5rem;
+    color: var(--cle-white);
+    font-weight:bolder;
+    border-radius: 50%;
+  }
   .buttoncobavoba{
     padding: 6px 24px;
     border: 2px solid #000000;
@@ -399,19 +413,16 @@ button {
     width: 100%;
     position: relative;
     bottom: 0;
-    background: linear-gradient(to right, #10610d, #299420);
-color : #fff;
-padding : 100px 0 30px;
-border-top-left-radius: 300px;
-font-size : 15px;
-line-height: 20px;
- 
-
+    background : var(--cle-green);
+    color : #fff;
+    padding : 100px 0 30px;
+    border-top-left-radius: 300px;
+    font-size : 15px;
+    line-height: 20px;
 }
 
 
 .rowfooter{
-
 width : 85%;
 margin : auto;
 display: flex;
