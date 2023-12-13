@@ -142,7 +142,7 @@ html::-webkit-scrollbar {
     margin-left: 2rem;
     font-size: 1.7rem;
     color: var(--cle-white);
-   
+ 
  }
 
  .navigation a:hover {
@@ -1960,6 +1960,11 @@ h4 a{
         display: block;
         position: absolute;
         top: 1rem; right: 2rem;
+    }
+
+    .package-card{
+        display: flex;
+        flex-direction: column;
     }
 }
 

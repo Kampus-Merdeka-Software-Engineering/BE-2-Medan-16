@@ -1,8 +1,8 @@
 module.exports = {
-    HOST: 'localhost',
-    USER: 'root',
-    PASSWORD: '',
-    DB: 'living_space',
+    HOST: 'sql.freedb.tech',
+    USER: 'freedb_living_space',
+    PASSWORD: 'jSv!y6%3jUbMu8w',
+    DB: 'freedb_living_space',
     dialect: 'mysql',
     pool: {
         max: 5,

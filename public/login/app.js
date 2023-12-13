@@ -9,11 +9,11 @@ sign_up_btn.addEventListener("click", () => {
 });
 
 back_btn.addEventListener("click", () => {
-  window.location.href = '../index.html';
+  window.location.href = '/index';
 });
 
 back_btn2.addEventListener("click", () => {
-  window.location.href = '../index.html';
+  window.location.href = '/index';
 });
 
 sign_in_btn.addEventListener("click", () => {
@@ -47,3 +47,16 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     
   }
 });
+
+loginForm.addEventListener("submit", function (event) {
+      event.preventDefault(); 
+
+      var request = new XMLHttpRequest();
+
+      request.onreadystatechange = function() {
+          if (request.readyState === 4 && request.status === 200) {
+            window.location.href = "/index";
+          } else if (request.readyState === 4) {
+            alert("An error occurred while logging in.");
+          }
+      }});
