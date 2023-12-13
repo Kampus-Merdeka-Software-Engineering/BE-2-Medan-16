@@ -9,11 +9,19 @@ sign_up_btn.addEventListener("click", () => {
 });
 
 back_btn.addEventListener("click", () => {
+<<<<<<< HEAD
   window.location.href = '/';
 });
 
 back_btn2.addEventListener("click", () => {
   window.location.href = '/';
+=======
+  window.location.href = 'index.html';
+});
+
+back_btn2.addEventListener("click", () => {
+  window.location.href = 'index.html';
+>>>>>>> fdb3477f8e1fade21d039be2429fa58f5aef90a2
 });
 
 sign_in_btn.addEventListener("click", () => {
