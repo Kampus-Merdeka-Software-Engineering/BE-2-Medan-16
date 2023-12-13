@@ -611,6 +611,63 @@ h4 a{
     
 }
 
+@media (max-width:768px){
+      #menu_btn{
+        display: inline-block;
+      }
+
+       .navigation{
+        position:fixed;
+        top: 0; left: -110%;
+        background: var(--cle-white);
+        z-index: 10000;
+        width: 35rem;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .navigation a{
+        color: #000000;
+    }
+
+    .header .navigation.active{
+        left:0 ;
+        box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+        
+
+    }
+
+
+    
+
+    
+
+    
+     .navigation a{
+         margin: 1rem 0;
+         font-size: 3rem;
+    }
+
+    .header .logo{
+        color: #ffffff;
+    }
+
+    #nav-close{
+        display: block;
+        position: absolute;
+        top: 1rem; right: 2rem;
+    }
+
+    .package-card{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width:991px){
     html{
        
