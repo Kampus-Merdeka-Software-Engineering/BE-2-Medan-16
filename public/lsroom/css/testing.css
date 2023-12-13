@@ -1941,10 +1941,9 @@ cursor: pointer;}
         .header .navigation.active{
             left:0 ;
             box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
-            
-    
         }
-    
+
+        
     
         
     
@@ -1964,6 +1963,12 @@ cursor: pointer;}
             display: block;
             position: absolute;
             top: 1rem; right: 2rem;
+        }
+
+        .package-card{
+            display:flex;
+            flex-direction: column;
+            
         }
     }
     
