@@ -9,11 +9,11 @@ sign_up_btn.addEventListener("click", () => {
 });
 
 back_btn.addEventListener("click", () => {
-  window.location.href = '/index';
+  window.location.href = 'index.html';
 });
 
 back_btn2.addEventListener("click", () => {
-  window.location.href = '/index';
+  window.location.href = 'index.html';
 });
 
 sign_in_btn.addEventListener("click", () => {
