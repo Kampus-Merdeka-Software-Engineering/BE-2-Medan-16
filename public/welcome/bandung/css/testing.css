@@ -128,7 +128,7 @@ html::-webkit-scrollbar {
     margin-left: 2rem;
     font-size: 1.7rem;
     color: var(--cle-white);
-    font-family: 'Poppins';   
+ 
  }
 
  .navigation a:hover {
